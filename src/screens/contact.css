@@ -1,5 +1,5 @@
 .contact{
-    background-color: #F8F9FD;
+    background-color: #f1fff9;
 }
   .form-control {
     display: block;
@@ -31,7 +31,7 @@
     .form-control:focus {
       color: #495057;
       background-color: #fff;
-      border-color: #80bdff;
+      border-color: #BAE3C8;
       outline: 0;
       -webkit-box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
       box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25); }
@@ -124,7 +124,9 @@
 }
   
   .info-wrap {
-    color: rgba(255, 255, 255, 0.8); }
+    color: rgba(255, 255, 255, 0.8); 
+    background-color: #6AC88A;
+  }
     .info-wrap h3 {
       color: #fff; }
     .info-wrap .dbox {

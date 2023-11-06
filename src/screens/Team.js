@@ -14,9 +14,11 @@ const Team = () => {
             </div>
 
           {team.map((data, index) => {
-            return (
-                <TeamCard  name={data.name} position={data.position} img={data.img}/>
-            );
+              if (data.type === 0) {
+                return (
+                  <TeamCard name={data.name} position={data.position} img={data.img} about={data.about} year={data.year}/>
+                );
+              }
           })}
         </div>
       </div>
@@ -27,9 +29,11 @@ const Team = () => {
             </div>
 
           {team.map((data, index) => {
-            return (
-                <TeamCard name={data.name} position={data.position} img={data.img}/>
-            );
+              if (data.type === 1) {
+                return (
+                  <TeamCard  name={data.name} position={data.position} img={data.img} about={data.about} year={data.year}/>
+                );
+              }
           })}
         </div>
       </div>

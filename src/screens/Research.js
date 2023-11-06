@@ -14,7 +14,7 @@ const Research = () => {
 
         {research.map((item, index) => {
             return (
-<div className={`col-12 col-sm-8 content-container ${index % 2 === 0 ? "no-reverse" : "reverse"}`}>
+<div className={`col-12 col-sm-12 content-container ${index % 2 === 0 ? "no-reverse" : "reverse"}`}>
                 <div class="col-text col-md-7 col-sm-12 col-xs-12">
                     <div class="card-wrapper">
                         <div class="card-box">

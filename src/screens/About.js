@@ -14,7 +14,7 @@ const About = () => {
                         <h4 class="card-title ">Conservation Science Lab: Pioneering a Future for Endangered Species</h4>
                         <p class="mbr-text ">
                         We are in the midst of the sixth mass extinction. The current rate of species endangerment is up to 1000 times higher than the natural rate. The focus of the lab is to understand the ecology of rare and endangered species and provide scientific evidence that will promote conservation in a human-dominated world. 
-                        <br/>
+
                         We invite spirited young people who wish to take up work on any of the aspects and also pave their careers in conservation science.</p>
                         
                     </div>

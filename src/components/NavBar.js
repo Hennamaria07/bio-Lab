@@ -6,7 +6,7 @@ import { FiMenu, FiX } from 'react-icons/fi';
 // import facebook from '../icons/facebook.png';
 // import instagram from '../icons/instagram.png';
 // import linkedin from '../icons/linkedin.png';
-
+import logo from "../assets/images/logo.png"
 
 const NavBar = () =>  {
  
@@ -45,8 +45,8 @@ const NavBar = () =>  {
 			{/* <div className='hide'></div> */}
 
 				<Link to="/" className="nav-logo">
-					{/* <img src={Logo} alt="Logo"/> */}
-                    <h2 className='logo-text-name'>Animal Conservation <br/>Ecology Lab</h2>
+					<img src={logo} alt="Logo"/>
+                    {/* <h2 className='logo-text-name'>Animal Conservation <br/>Ecology Lab</h2> */}
 				</Link>
 				<div onClick={handleClick} className="nav-icon">
 					{open ? <FiX /> : <FiMenu />}
@@ -58,15 +58,16 @@ const NavBar = () =>  {
 						</Link>
 					</li>
 					<li className="nav-item">
-						<Link to="/about" className="nav-link" onClick={closeMenu}>
-							About
-						</Link>
-					</li>
-					<li className="nav-item">
 						<Link to="/research" className="nav-link" onClick={closeMenu}>
 							Research
 						</Link>
 					</li>
+					<li className="nav-item">
+						<Link to="/publications" className="nav-link" onClick={closeMenu}>
+							Publications
+						</Link>
+					</li>
+
 					<li className="nav-item">
 						<Link to="/gallery" className="nav-link" onClick={closeMenu}>
 							Gallery

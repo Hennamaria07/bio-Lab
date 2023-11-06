@@ -28,10 +28,13 @@ function Hero() {
                     </div>
 
               <div className="slide-content">
+                <div></div>
+                <div></div>
                 <h1 className="slide-text">{item.title}</h1>
-                <a href="#" class="btn">
+                <a href="#" class="btn mt-4">
                     <span class="btn-inner">Learn More</span>
                 </a>
+                <div></div>
               </div>
               </div>
             );
