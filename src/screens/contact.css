@@ -1,5 +1,24 @@
+:root{
+
+  --contact-bg-color: #F5F1E8;
+  --contact-info-bg-color: #CCB98B;
+  --contact-info-font-color: #000000;
+  --contact-form-bg-color: #ffffff;
+  --contact-form-font-color: #000000;
+  --contact-form-placeholder-color: #31302e;
+
+
+  --contact-btn-bg-color: #ad8e44;
+  --contact-btn-hover-bg-color: #ad8e44;
+  --contact-btn-font-color: #ffffff;
+  --contact-btn-hover-font-color: #ffffff;
+
+
+}
+
+
 .contact{
-    background-color: #f1fff9;
+    background-color: var(--contact-bg-color);
 }
   .form-control {
     display: block;
@@ -10,7 +29,7 @@
     font-weight: 400;
     line-height: 1.5;
     color: #495057;
-    background-color: #fff;
+    background-color: var(--contact-form-bg-color);
     background-clip: padding-box;
     border: 1px solid #ced4da;
     border-radius: 0.25rem;
@@ -30,30 +49,31 @@
       border: 0; }
     .form-control:focus {
       color: #495057;
-      background-color: #fff;
+      background-color: var(--contact-form-bg-color);
       border-color: #BAE3C8;
       outline: 0;
       -webkit-box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
       box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25); }
     .form-control::-webkit-input-placeholder {
-      color: #6c757d;
+      color: var(--contact-form-placeholder-color);
       opacity: 1; }
     .form-control:-ms-input-placeholder {
-      color: #6c757d;
+      color: var(--contact-form-placeholder-color);
       opacity: 1; }
     .form-control::-ms-input-placeholder {
-      color: #6c757d;
+      color: var(--contact-form-placeholder-color);
       opacity: 1; }
     .form-control::placeholder {
-      color: #6c757d;
+      color: var(--contact-form-placeholder-color);
       opacity: 1; }
     .form-control:disabled, .form-control[readonly] {
-      background-color: #e9ecef;
+      background-color: var(--contact-form-bg-color);
       opacity: 1; }
   
   select.form-control:focus::-ms-value {
-    color: #495057;
-    background-color: #fff; }
+    /* color: #327dc7; */
+    background-color: #fff; 
+  }
   
   select.form-control[size], select.form-control[multiple] {
     height: auto; }
@@ -69,11 +89,11 @@
   .btn-primary {
     display: inline-block;
     padding: 13px 20px;
-    color: #9e1212;
+    color: var(--contact-btn-font-color);
     text-decoration: none;
     position: relative;
-    background-color: #007bff;
-    border:1px solid #007bff; 
+    background-color: var(--contact-btn-bg-color);
+    border:1px solid var(--contact-btn-bg-color); 
     border-radius: 4px;
     font-size:10px;
     letter-spacing: .4em;
@@ -84,9 +104,11 @@
 
     }
     .btn-primary:hover {
-      color: #fff;
-      background-color: #0069d9;
-      border-color: #0062cc; }
+      color: var(--contact-btn-hover-font-color);
+      background-color: var(--contact-btn-hover-bg-color);
+      border-color: var(--contact-btn-hover-bg-color); 
+    }
+
 
   
 
@@ -94,7 +116,7 @@
   
   .form-control {
     height: 52px !important;
-    background: #fff !important;
+    background: var(--contact-form-bg-color) !important;
     color: #000000 !important;
     font-size: 14px;
     border-radius: 5px;
@@ -118,20 +140,20 @@
 }
   
   .contact-wrap {
-    background: #ffffff; 
+    background: var(--contact-form-bg-color); 
     padding: 6rem 0rem;
 
 }
   
   .info-wrap {
-    color: rgba(255, 255, 255, 0.8); 
-    background-color: #6AC88A;
+    color: var(--contact-info-font-color); 
+    background-color: var(--contact-info-bg-color);
   }
     .info-wrap h3 {
-      color: #fff; }
+      color: var(--contact-info-font-color); }
     .info-wrap .dbox {
       width: 100%;
-      color: rgba(255, 255, 255, 0.8);
+      color: var(--contact-info-font-color);
       margin-bottom: 25px; }
       .info-wrap .dbox:last-child {
         margin-bottom: 0; }
@@ -139,9 +161,9 @@
         margin-bottom: 0; }
         .info-wrap .dbox p span {
           font-weight: 500;
-          color: #fff; }
+          color: var(--contact-info-font-color); }
         .info-wrap .dbox p a {
-          color: #fff; }
+          color: var(--contact-info-font-color); }
       .info-wrap .dbox .icon {
         width: 50px;
         height: 50px;
@@ -151,7 +173,7 @@
     }
         .info-wrap .dbox .icon .icon-img {
           font-size: 22px;
-          color: #fff; }
+          color: var(--contact-info-font-color); }
       .info-wrap .dbox .text {
         width: calc(100% - 50px); }
   

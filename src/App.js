@@ -4,7 +4,7 @@ import People from "./pages/People"
 import ContactUs from "./pages/ContactUs";
 import GalleryPage from "./pages/GalleryPage";
 import ResearchPage from "./pages/ResearchPage";
-import Publications from "./pages/Publications";
+import PublicationPage from "./pages/PublicationPage";
 import './App.css';
 
 function App() {
@@ -16,8 +16,7 @@ function App() {
       <Route path="/contact" element={<ContactUs />} />
       <Route path="/gallery" element={<GalleryPage />} />
       <Route path="/research" element={<ResearchPage />} />
-      <Route path="/publications" element={<Publications />} />
-
+      <Route path="/publications" element={<PublicationPage />} />
 
     </Routes>
     </BrowserRouter>
