@@ -1,4 +1,4 @@
-import React ,{useState} from 'react'
+import React ,{useState,useEffect} from 'react'
 import { AiOutlineLeft, AiOutlineRight ,AiOutlineClose} from "react-icons/ai"
 import "./gallery.css"
 import { gallery } from '../data/Data';
@@ -6,6 +6,10 @@ const GridGallery = () => {
 
     const [showViewer, setShowViewer] = useState(false);
     const [currentImage, setCurrentImage] = useState(0);
+    const [images, setImages] = useState([]);
+    const [groupedArray, setGroupedArray] = useState([]);
+
+
   
     const openViewer = (index) => {
       setCurrentImage(index);
@@ -24,17 +28,26 @@ const GridGallery = () => {
       setCurrentImage((currentImage + gallery.length - 1) % gallery.length);
     };
   
-
-    // const chunkedArray = [];
-    // for (let i = 0; i < peopleArray.length; i += 3) {
-    //   chunkedArray.push(peopleArray.slice(i, i + 3));
+  // kkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkk
+    // var groupedArray = [];
+    // for (var i = 0; i < gallery.length; i += 6) {
+    //   groupedArray.push(gallery.slice(i, i + 6));
     // }
+    // console.log(groupedArray)
+// kkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkk
+useEffect(() => {
+  const importAll = (r) => {
+    return r.keys().map(r);
+  };
 
-    var groupedArray = [];
-    for (var i = 0; i < gallery.length; i += 6) {
-      groupedArray.push(gallery.slice(i, i + 6));
-    }
-    console.log(groupedArray)
+  const galleryImages = importAll(require.context('../assets/images/gallery', false, /\.(png|jpe?g|svg)$/));
+  var tempGroupedArray = [];
+  for (var i = 0; i < galleryImages.length; i += 6) {
+    tempGroupedArray.push(galleryImages.slice(i, i + 6));
+  }
+
+  setGroupedArray(tempGroupedArray);
+}, []);
 
   return (
     <>
@@ -49,8 +62,8 @@ const GridGallery = () => {
             const dynamicClassName = `item-${index}`;
             return (
           <div id={dynamicClassName}>
-              <img src={data.img} alt="photo" />
-              <div class="overlay"><span>{data.title}</span></div>
+              <img src={data} alt="photo" />
+              {/* <div class="overlay"><span>{data.title}</span></div> */}
           </div>
               );
             }

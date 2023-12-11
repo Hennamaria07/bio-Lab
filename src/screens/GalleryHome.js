@@ -1,4 +1,4 @@
-import React ,{useState} from 'react'
+import React ,{useState,useEffect} from 'react'
 import { AiOutlineLeft, AiOutlineRight ,AiOutlineClose} from "react-icons/ai"
 
 import { gallery } from '../data/Data';
@@ -6,6 +6,8 @@ const GalleryHome = () => {
 
     const [showViewer, setShowViewer] = useState(false);
     const [currentImage, setCurrentImage] = useState(0);
+    const [groupedArray, setGroupedArray] = useState([]);
+
   
     const openViewer = (index) => {
       setCurrentImage(index);
@@ -24,7 +26,15 @@ const GalleryHome = () => {
       setCurrentImage((currentImage + gallery.length - 1) % gallery.length);
     };
   
-
+    useEffect(() => {
+      const importAll = (r) => {
+        return r.keys().map(r);
+      };
+    
+      const galleryImages = importAll(require.context('../assets/images/gallery', false, /\.(png|jpe?g|svg)$/));
+    
+      setGroupedArray(galleryImages);
+    }, []);
 
 
 
@@ -33,11 +43,11 @@ const GalleryHome = () => {
     <div class="container d-flex justify-content-center">
     <div class="image-gallery" style={{gap:'0px',borderRadius:'0px',paddingBottom:'16px'}}>
 
-    {gallery.map((data, index) => {
+    {groupedArray.map((data, index) => {
         if(index <= 5){
             return (
                 <div className='image-grid' onClick={() => openViewer(index)}>
-                    <img src={data.img} alt="" style={{borderRadius:'0px'}}/>
+                    <img src={data} alt="" style={{borderRadius:'0px'}}/>
                     {/* <div class="overlay"><span>{data.title}</span></div> */}
               </div>            
             );

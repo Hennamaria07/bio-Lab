@@ -1,5 +1,5 @@
 import React from 'react'
-import { research } from '../data/Data';
+import { publication } from '../data/Data';
 import { AiFillCalendar,AiFillFilePdf ,AiOutlineGlobal} from 'react-icons/ai';
 
 const Publication = () => {
@@ -14,7 +14,7 @@ const Publication = () => {
 
 
 
-        {research.map((item, index) => {
+        {publication.map((item, index) => {
             return (
 <div className="col-12 col-md-10 col-sm-12 publication-container ">
 <div class="index-wrapper" >
@@ -50,21 +50,6 @@ const Publication = () => {
     </div>
 </div>
 </section>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
   )
 }

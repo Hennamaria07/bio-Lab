@@ -1,6 +1,9 @@
 import React, { useState } from "react";
+import { Link } from 'react-router-dom';
+
 import { AiOutlineLeft, AiOutlineRight } from "react-icons/ai"
 import { slider } from "../data/Data";
+
 function Hero() {
     const [slide, setSlide] = useState(0);
 
@@ -31,9 +34,9 @@ function Hero() {
                 <div></div>
                 <div></div>
                 <h1 className="slide-text">{item.title}</h1>
-                <a href="#" class="btn mt-4">
-                    <span class="btn-inner">Learn More</span>
-                </a>
+                  <Link to="/research" className="btn mt-4">
+                      <span class="btn-inner">Learn More</span>
+                  </Link>
                 <div></div>
               </div>
               </div>
