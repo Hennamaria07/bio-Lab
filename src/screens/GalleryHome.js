@@ -41,7 +41,7 @@ const GalleryHome = () => {
   return (
     <>
     <div class="container d-flex justify-content-center">
-    <div class="image-gallery" style={{gap:'0px',borderRadius:'0px',paddingBottom:'16px'}}>
+    <div class="image-gallery" style={{gap:'6px',borderRadius:'0px',paddingBottom:'16px'}}>
 
     {groupedArray.map((data, index) => {
         if(index <= 5){

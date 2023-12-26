@@ -41,6 +41,7 @@ useEffect(() => {
   };
 
   const galleryImages = importAll(require.context('../assets/images/gallery', false, /\.(png|jpe?g|svg)$/));
+  setImages(galleryImages)
   var tempGroupedArray = [];
   for (var i = 0; i < galleryImages.length; i += 6) {
     tempGroupedArray.push(galleryImages.slice(i, i + 6));
@@ -61,7 +62,7 @@ useEffect(() => {
           if(index<6){
             const dynamicClassName = `item-${index}`;
             return (
-          <div id={dynamicClassName}>
+          <div id={dynamicClassName} onClick={() => openViewer(outerIndex)}>
               <img src={data} alt="photo" />
               {/* <div class="overlay"><span>{data.title}</span></div> */}
           </div>
@@ -79,7 +80,20 @@ useEffect(() => {
 
   </div>
 
-
+    {showViewer && (
+        <div className="image-viewer">
+          <span className="close-button" onClick={closeViewer}>
+            <AiOutlineClose />
+          </span>
+          <img src={images[currentImage]} alt={`Image ${currentImage + 1}`} />
+          <button onClick={prevImage} className="prev-button">
+            <AiOutlineLeft />
+          </button>
+          <button onClick={nextImage} className="next-button">
+            <AiOutlineRight />
+          </button>
+        </div>
+      )}
 
 </>
   )

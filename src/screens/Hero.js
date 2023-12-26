@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState,useEffect } from "react";
 import { Link } from 'react-router-dom';
 
 import { AiOutlineLeft, AiOutlineRight } from "react-icons/ai"
@@ -14,7 +14,14 @@ function Hero() {
       const prevSlide = () => {
         setSlide(slide === 0 ? slider.length - 1 : slide - 1);
       };
+      useEffect(() => {
+        const intervalId = setInterval(() => {
+          nextSlide();
+        }, 4000);
     
+        return () => clearInterval(intervalId);
+      }, [slide]); 
+
       return (
         <div className="carousel">
           <AiOutlineLeft onClick={prevSlide} className="arrow arrow-left" />
