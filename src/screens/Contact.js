@@ -13,10 +13,10 @@ const Contact = () => {
 <div class="row no-gutters">
 <div class="col-lg-8 col-md-7 order-md-last d-flex align-items-stretch">
 <div class="contact-wrap w-100 p-md-5 p-4">
-<h3 class="mb-4">Get in touch</h3>
+<h3 class="mb-4">Let's get in touch</h3>
 <div id="form-message-warning" class="mb-4"></div>
 <div id="form-message-success" class="mb-4">
-Your message was sent, thank you!
+We're open for any suggestion or just to have a chat
 </div>
 <form method="POST" id="contactForm" name="contactForm" class="contactForm">
 <div class="row">
@@ -65,7 +65,12 @@ Your message was sent, thank you!
         <BsGeoFill className="icon-img"/>
     </div>
     <div class="text pl-3">
-        <p><span>Address:</span> 198 West 21th Street, Suite 721 New York NY 10016</p>
+        <p><span>Address:</span>Karthikeyan Vasudevan
+Chief Scientist
+Laboratory for the Conservation of Endangered Species (LaCONES)
+CSIR-Centre for Cellular and Molecular Biology
+162 Pillar, PVNR Expressway, Attapur Ring Road,
+Hyderguda, Hyderabad 500 048</p>
     </div>
 </div>
 
@@ -74,7 +79,7 @@ Your message was sent, thank you!
         <BsTelephoneFill className="icon-img"/>
     </div>
     <div class="text pl-3">
-        <p><span>Phone:</span> <a href="tel://1234567920">+ 1235 2355 98</a></p>
+        <p><span>Phone:</span> <a href="tel://1234567920">+91-40-24006443</a></p>
     </div>
 </div>
 
@@ -84,7 +89,7 @@ Your message was sent, thank you!
 
 </div>
 <div class="text pl-3">
-<p><span>Email:</span> <a href=""><span class="__cf_email__" >info@abcd.gov.in</span></a></p>
+<p><span>Email:</span> <a href=""><span class="__cf_email__" >karthik@ccmb.res.in </span></a></p>
 </div>
 </div>
 <div class="dbox w-100 d-flex align-items-center">
@@ -93,7 +98,7 @@ Your message was sent, thank you!
 <BsGlobeAmericas className="icon-img"/>
 </div>
 <div class="text pl-3">
-<p><span>Website</span> <a href="#">www.yoursite.com</a></p>
+<p><span>Website</span> <a href="#">https://www.ccmb.res.in/ </a></p>
 </div>
 </div>
 </div>
