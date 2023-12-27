@@ -424,7 +424,13 @@ export const publication = [
   {
     title: "Chytridiomycosis in amphibians",
     dec: "Chytridiomycosis is an emerging fungal disease that is caused by Batrachochytrium dendrobatidis (Bd). India has an asymptomatic disease and no host mortalities. We have started long-term monitoring of frogs and toads in the seasonal streams of Tillari Conservation Reserve to understand the mechanisms of tolerance/resistance against Bd in the amphibian community here.",
-    year: 2022,
+    year: 2021,
+    link: "https://www.google.com/",
+    file:"",
+  },  {
+    title: "Chytridiomycosis in amphibians",
+    dec: "Chytridiomycosis is an emerging fungal disease that is caused by Batrachochytrium dendrobatidis (Bd). India has an asymptomatic disease and no host mortalities. We have started long-term monitoring of frogs and toads in the seasonal streams of Tillari Conservation Reserve to understand the mechanisms of tolerance/resistance against Bd in the amphibian community here.",
+    year: 2021,
     link: "https://www.google.com/",
     file:"",
   },
@@ -432,20 +438,6 @@ export const publication = [
     title: "Chytridiomycosis in amphibians",
     dec: "Chytridiomycosis is an emerging fungal disease that is caused by Batrachochytrium dendrobatidis (Bd). India has an asymptomatic disease and no host mortalities. We have started long-term monitoring of frogs and toads in the seasonal streams of Tillari Conservation Reserve to understand the mechanisms of tolerance/resistance against Bd in the amphibian community here.",
     year: 2021,
-    link: "https://www.google.com/",
-    file:"",
-  },  
-  {
-    title: "Chytridiomycosis in amphibians",
-    dec: "Chytridiomycosis is an emerging fungal disease that is caused by Batrachochytrium dendrobatidis (Bd). India has an asymptomatic disease and no host mortalities. We have started long-term monitoring of frogs and toads in the seasonal streams of Tillari Conservation Reserve to understand the mechanisms of tolerance/resistance against Bd in the amphibian community here.",
-    year: 2022,
-    link: "https://www.google.com/",
-    file:"",
-  },
-  {
-    title: "Chytridiomycosis in amphibians",
-    dec: "Chytridiomycosis is an emerging fungal disease that is caused by Batrachochytrium dendrobatidis (Bd). India has an asymptomatic disease and no host mortalities. We have started long-term monitoring of frogs and toads in the seasonal streams of Tillari Conservation Reserve to understand the mechanisms of tolerance/resistance against Bd in the amphibian community here.",
-    year: 2023,
     link: "https://www.google.com/",
     file:"",
   }
