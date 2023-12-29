@@ -1,10 +1,16 @@
-import React from 'react'
-import animal_1 from "../assets/images/animals/about_img.png";
+import React from 'react';
+
 import person from"../assets/images/current/1. Dr. Karthikeyan Vasudevan - Chief Scientist.JPG";
 const DepartmentHead = () => {
+    const handleDownloadCV = () => {
+        const link = document.createElement('a');
+        link.href = `${process.env.PUBLIC_URL}/pdf/CV.docx.pdf`;
+        link.download = 'Dr_Karthikeyan_Vasudevan_CV.pdf';
+        link.click();
+      };
+      
   return (
 <section class="department-head" id="department-head">
-
 <div class="head-container container-fluid">
     <div class="row m-0" style={{display:'flex',justifyContent:'center'}}>
 
@@ -22,7 +28,7 @@ const DepartmentHead = () => {
                     <h5 class="card-title ">Chief Scientist</h5>
                     <div style={{height:"1px" ,width:'100%',backgroundColor:'#000000',margin:'12px 0px'}}></div>
                     <p class="mbr-text "> We are in the midst of the sixth mass extinction. The current rate of species endangerment is up to 1000 times higher than the natural rate.</p>
-                    <div className="btn mt-4">
+                    <div className="btn mt-4" onClick={handleDownloadCV}>
                       <span class="btn-inner">Download CV</span>
                     </div>
 
