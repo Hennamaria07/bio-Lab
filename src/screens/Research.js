@@ -4,10 +4,10 @@ import "../App.css"
 const Research = () => {
   return (
 
-    <section class="research" id="research">
+    <section className="research" id="research">
 
-    <div class="container-fluid">
-        <div class="row align-items-center justify-content-center">
+    <div className="container-fluid">
+        <div className="row align-items-center justify-content-center">
 
             <div className='col-md-12 one'>
                 <h1>Endangered Species Ecology</h1>
@@ -17,9 +17,9 @@ const Research = () => {
                 return (
                 
                 <div className={`col-12 col-sm-12 content-container ${index % 2 === 0 ? "no-reverse" : "reverse"}`}>
-                    <div class="col-text col-md-7 col-sm-12 col-xs-12">
-                        <div class="card-wrapper">
-                            <div class="card-box">
+                    <div className="col-text col-md-7 col-sm-12 col-xs-12">
+                        <div className="card-wrapper">
+                            <div className="card-box">
                                 <h3>{item.title}</h3>
                                 <p>{item.dec}</p>
                                 <h5>{item.team}</h5>
@@ -27,7 +27,7 @@ const Research = () => {
                         </div>
                     </div>
         
-                    <div class="col-img col-md-5 col-sm-12 col-xs-12">
+                    <div className="col-img col-md-5 col-sm-12 col-xs-12">
                         <div className={`image-wrapper ${index % 2 === 0 ? "text-align-end" : "text-align-start"}`}>
 
                             <img src={item.img} alt="Website"/>
@@ -43,8 +43,8 @@ const Research = () => {
     </div>
 
 
-    <div class="container-fluid">
-        <div class="row align-items-center justify-content-center">
+    <div className="container-fluid">
+        <div className="row align-items-center justify-content-center">
 
             <div className='col-md-12 one'>
                 <h1>Disease ecology</h1>
@@ -54,9 +54,9 @@ const Research = () => {
                 return (
                 
                 <div className={`col-12 col-sm-12 content-container ${index % 2 === 0 ? "no-reverse" : "reverse"}`}>
-                    <div class="col-text col-md-7 col-sm-12 col-xs-12">
-                        <div class="card-wrapper">
-                            <div class="card-box">
+                    <div className="col-text col-md-7 col-sm-12 col-xs-12">
+                        <div className="card-wrapper">
+                            <div className="card-box">
                                 <h3>{item.title}</h3>
                                 <p>{item.dec}</p>
                                 <h5>{item.team}</h5>
@@ -64,7 +64,7 @@ const Research = () => {
                         </div>
                     </div>
         
-                    <div class="col-img col-md-5 col-sm-12 col-xs-12">
+                    <div className="col-img col-md-5 col-sm-12 col-xs-12">
                         <div className={`image-wrapper ${index % 2 === 0 ? "text-align-end" : "text-align-start"}`}>
 
                             <img src={item.img} alt="Website"/>

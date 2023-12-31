@@ -10,26 +10,26 @@ const DepartmentHead = () => {
       };
       
   return (
-<section class="department-head" id="department-head">
-<div class="head-container container-fluid">
-    <div class="row m-0" style={{display:'flex',justifyContent:'center'}}>
+<section className="department-head" id="department-head">
+<div className="head-container container-fluid">
+    <div className="row m-0" style={{display:'flex',justifyContent:'center'}}>
 
-        <div class="col-md-10 col-sm-10 main-container" style={{}}>
-            <div class="col-img col-md-4 col-sm-5">
-                <div class="image-wrapper">
+        <div className="col-md-10 col-sm-10 main-container" style={{}}>
+            <div className="col-img col-md-4 col-sm-5">
+                <div className="image-wrapper">
                     <img src={person} alt="Website"/>
                 </div>
             </div>
 
-            <div class="col-text col-md-8 col-sm-7">
-                <div class="text-wrapper">
+            <div className="col-text col-md-8 col-sm-7">
+                <div className="text-wrapper">
 
-                    <h4 class="card-title ">Dr. Karthikeyan Vasudevan</h4>
-                    <h5 class="card-title ">Chief Scientist</h5>
+                    <h4 className="card-title ">Dr. Karthikeyan Vasudevan</h4>
+                    <h5 className="card-title ">Chief Scientist</h5>
                     <div style={{height:"1px" ,width:'100%',backgroundColor:'#000000',margin:'12px 0px'}}></div>
-                    <p class="mbr-text "> We are in the midst of the sixth mass extinction. The current rate of species endangerment is up to 1000 times higher than the natural rate.</p>
+                    <p className="mbr-text "> We are in the midst of the sixth mass extinction. The current rate of species endangerment is up to 1000 times higher than the natural rate.</p>
                     <div className="btn mt-4" onClick={handleDownloadCV}>
-                      <span class="btn-inner">Download CV</span>
+                      <span className="btn-inner">Download CV</span>
                     </div>
 
                 </div>

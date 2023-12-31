@@ -40,15 +40,14 @@ const GalleryHome = () => {
 
   return (
     <>
-    <div class="container d-flex justify-content-center">
-    <div class="image-gallery" style={{gap:'6px',borderRadius:'0px',paddingBottom:'16px'}}>
-
+    <div className="container d-flex justify-content-center">
+    <div className="image-gallery" style={{gap:'6px',borderRadius:'0px',paddingBottom:'16px'}}>
     {groupedArray.map((data, index) => {
         if(index <= 5){
             return (
                 <div className='image-grid' onClick={() => openViewer(index)}>
                     <img src={data} alt="" style={{borderRadius:'0px'}}/>
-                    {/* <div class="overlay"><span>{data.title}</span></div> */}
+                    {/* <div className="overlay"><span>{data.title}</span></div> */}
               </div>            
             );
         } 

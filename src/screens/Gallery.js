@@ -30,14 +30,14 @@ const Gallery = () => {
 
   return (
     <>
-    <div class="container d-flex justify-content-center">
-    <div class="image-gallery">
+    <div className="container d-flex justify-content-center">
+    <div className="image-gallery">
 
     {gallery.map((data, index) => {
             return (
                 <div className='image-grid' onClick={() => openViewer(index)}>
                     <img src={data.img} alt="" />
-                    <div class="overlay"><span>{data.title}</span></div>
+                    <div className="overlay"><span>{data.title}</span></div>
               </div>            );
           })}
 

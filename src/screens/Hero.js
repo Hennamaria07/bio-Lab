@@ -42,7 +42,7 @@ function Hero() {
                 <div></div>
                 <h1 className="slide-text">{item.title}</h1>
                   <Link to="/research" className="btn mt-4">
-                      <span class="btn-inner">Learn More</span>
+                      <span className="btn-inner">Learn More</span>
                   </Link>
                 <div></div>
               </div>

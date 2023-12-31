@@ -1,12 +1,12 @@
 import React from 'react'
-import { publication } from '../data/Data';
+import { books } from '../data/Data';
 import { AiFillCalendar,AiFillFilePdf ,AiOutlineGlobal} from 'react-icons/ai';
 
 const PublicationBook = () => {
 
 
   // Grouping publications by year
-  const groupedPublications = publication.reduce((acc, pub) => {
+  const groupedPublications = books.reduce((acc, pub) => {
     const year = pub.year;
     if (!acc[year]) {
       acc[year] = [];
@@ -23,7 +23,7 @@ const PublicationBook = () => {
     <section className="publication" id="publication">
       <div className="container-fluid" style={{ padding: '0% 10%' }}>
         <div className="row align-items-center justify-content-center">
-          {Object.keys(groupedPublications).map((year) => (
+          {Object.keys(groupedPublications).sort((a, b) => b - a).map((year) => (
             <div key={year} className="m-0 p-0">
                 <div className='col-md-12 one'>
                     <h1>{year}</h1>

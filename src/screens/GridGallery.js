@@ -52,10 +52,10 @@ useEffect(() => {
 
   return (
     <>
-    <div class="container d-flex justify-content-center">
-    <div class="image-gallery">
+    <div className="container d-flex justify-content-center">
+    <div className="image-gallery">
     {groupedArray.map((innerArray, outerIndex) => (
-    <div class="angry-grid" key={outerIndex}>
+    <div className="angry-grid" key={outerIndex}>
 
 
     {innerArray.map((data, index) => {
@@ -64,7 +64,7 @@ useEffect(() => {
             return (
           <div id={dynamicClassName} onClick={() => openViewer(outerIndex)}>
               <img src={data} alt="photo" />
-              {/* <div class="overlay"><span>{data.title}</span></div> */}
+              {/* <div className="overlay"><span>{data.title}</span></div> */}
           </div>
               );
             }
@@ -106,7 +106,7 @@ export default GridGallery;
 
 
 
-{/* <div class="angry-grid">
+{/* <div className="angry-grid">
             <div id="item-0">
                 <img src="https://source.unsplash.com/1280x720/?nature" alt="Phto"/>
             </div>
