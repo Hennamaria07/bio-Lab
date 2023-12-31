@@ -35,7 +35,7 @@ const Gallery = () => {
 
     {gallery.map((data, index) => {
             return (
-                <div className='image-grid' onClick={() => openViewer(index)}>
+                <div key={index} className='image-grid' onClick={() => openViewer(index)}>
                     <img src={data.img} alt="" />
                     <div className="overlay"><span>{data.title}</span></div>
               </div>            );

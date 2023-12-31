@@ -1,6 +1,7 @@
 import React from 'react'
 import "./contact.css";
 import { BsGeoFill,BsTelephoneFill,BsEnvelopeAtFill ,BsGlobeAmericas} from "react-icons/bs"
+import { Link } from 'react-router-dom';
 
 
 const Contact = () => {
@@ -22,25 +23,25 @@ We're open for any suggestion or just to have a chat
 <div className="row">
 <div className="col-md-6">
 <div className="form-group">
-<label className="label" for="name">Full Name</label>
+<label className="label" htmlFor="name">Full Name</label>
 <input type="text" className="form-control" name="name" id="name" placeholder="Name"/>
 </div>
 </div>
 <div className="col-md-6">
 <div className="form-group">
-<label className="label" for="email">Email Address</label>
+<label className="label" htmlFor="email">Email Address</label>
 <input type="email" className="form-control" name="email" id="email" placeholder="Email"/>
 </div>
 </div>
 <div className="col-md-12">
 <div className="form-group">
-<label className="label" for="subject">Subject</label>
+<label className="label" htmlFor="subject">Subject</label>
 <input type="text" className="form-control" name="subject" id="subject" placeholder="Subject"/>
 </div>
 </div>
 <div className="col-md-12">
 <div className="form-group">
-<label className="label" for="#">Message</label>
+<label className="label" htmlFor="#">Message</label>
 <textarea name="message" className="form-control" id="message" cols="30" rows="4" placeholder="Message"></textarea>
 </div>
 </div>
@@ -79,7 +80,7 @@ Hyderguda, Hyderabad 500 048</p>
         <BsTelephoneFill className="icon-img"/>
     </div>
     <div className="text pl-3">
-        <p><span>Phone:</span> <a href="tel://1234567920">+91-40-24006443</a></p>
+        <p><span>Phone:</span> <Link to="tel://1234567920">+91-40-24006443</Link></p>
     </div>
 </div>
 
@@ -89,7 +90,7 @@ Hyderguda, Hyderabad 500 048</p>
 
 </div>
 <div className="text pl-3">
-<p><span>Email:</span> <a href=""><span className="__cf_email__" >karthik@ccmb.res.in </span></a></p>
+<p><span>Email:</span> <Link to="/"><span className="__cf_email__" >karthik@ccmb.res.in </span></Link></p>
 </div>
 </div>
 <div className="dbox w-100 d-flex align-items-center">
@@ -98,7 +99,7 @@ Hyderguda, Hyderabad 500 048</p>
 <BsGlobeAmericas className="icon-img"/>
 </div>
 <div className="text pl-3">
-<p><span>Website</span> <a href="#">https://www.ccmb.res.in/ </a></p>
+<p><span>Website</span> <Link to="/">https://www.ccmb.res.in/ </Link></p>
 </div>
 </div>
 </div>

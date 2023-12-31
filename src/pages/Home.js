@@ -24,8 +24,8 @@ const Home = () => {
         <div className='container'>
           <div className='row'>
             <div className='col-12 col-md-12 col-sm-12 col-xs-12 home-gallery-button'>
-              <Link to="/gallery" class="btn">
-                  <span class="btn-inner">Load More</span>
+              <Link to="/gallery" className="btn">
+                  <span className="btn-inner">Load More</span>
               </Link>
             </div>
           </div>

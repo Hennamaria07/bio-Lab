@@ -16,7 +16,7 @@ const Research = () => {
             {research.filter(item => item.type === 0).map((item, index) => {
                 return (
                 
-                <div className={`col-12 col-sm-12 content-container ${index % 2 === 0 ? "no-reverse" : "reverse"}`}>
+                <div key={index} className={`col-12 col-sm-12 content-container ${index % 2 === 0 ? "no-reverse" : "reverse"}`}>
                     <div className="col-text col-md-7 col-sm-12 col-xs-12">
                         <div className="card-wrapper">
                             <div className="card-box">
@@ -53,7 +53,7 @@ const Research = () => {
             {research.filter(item => item.type === 1).map((item, index) => {
                 return (
                 
-                <div className={`col-12 col-sm-12 content-container ${index % 2 === 0 ? "no-reverse" : "reverse"}`}>
+                <div key={index} className={`col-12 col-sm-12 content-container ${index % 2 === 0 ? "no-reverse" : "reverse"}`}>
                     <div className="col-text col-md-7 col-sm-12 col-xs-12">
                         <div className="card-wrapper">
                             <div className="card-box">

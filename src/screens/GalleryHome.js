@@ -45,7 +45,7 @@ const GalleryHome = () => {
     {groupedArray.map((data, index) => {
         if(index <= 5){
             return (
-                <div className='image-grid' onClick={() => openViewer(index)}>
+                <div key={index} className='image-grid' onClick={() => openViewer(index)}>
                     <img src={data} alt="" style={{borderRadius:'0px'}}/>
                     {/* <div className="overlay"><span>{data.title}</span></div> */}
               </div>            

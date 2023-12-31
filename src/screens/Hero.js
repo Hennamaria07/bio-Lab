@@ -27,7 +27,7 @@ function Hero() {
           <AiOutlineLeft onClick={prevSlide} className="arrow arrow-left" />
           {slider.map((item, index) => {
             return (
-                <div className={slide === index ? "slide" : "slide slide-hidden"}>
+                <div key={index} className={slide === index ? "slide" : "slide slide-hidden"}>
                     <div className="image-container">
                     <img
                       src={item.img}
