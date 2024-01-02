@@ -49,6 +49,8 @@ export const team = [
     year: "2021-",
     img: team19,
     type: 0,
+    des: "Animal ecology and conservation biology are my research interests. I am fascinated by amphibians and reptiles and my research revolves around them.",
+    email: "karthik@csirccmb.org"
   },
   {
     name: "Dr. B. Sambasiva Rao",
@@ -58,6 +60,8 @@ export const team = [
     year: "2021-",
     img: team1,
     type: 0,
+    des: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eligendi dolorum ducimus impedit amet laudantium quasi expedita possimus id, beatae excepturi assumenda corporis distinctio, ex labore tempora doloremque illo? Repellendus, quidem.",
+    email: 'sambasiva@ccmb.res.in'
   },
   {
     name: "Dr. Ranjit Sahoo",
@@ -66,7 +70,9 @@ export const team = [
       "Whatever tattooed stumptown art party sriracha gentrify hashtag intelligentsia readymade schlitz brooklyn disrupt",
     year: "2021-",
     img: team2,
-    type: 0,
+    type: 2,
+    des: "As a DST-INSPIRE Faculty Fellow, I practice scientific thinking/process in the field of Ecology & Evolution, where I focus on the fundamentals of population genomics. Studying the natural populations of a leaf-feeding beetle species Zygogramma bicolorata, my current research aims to evaluate the underlying processes that facilitate population survival and expansion in heterogeneous habitat, and impart local adaptation, regardless of initial small census size. I am equally curious about the research in Wolbachia biology.",
+    email: "sahoork@csirccmb.org"
   },
   {
     name: "K. Rajyalakshmi",
@@ -75,7 +81,9 @@ export const team = [
       "Whatever tattooed stumptown art party sriracha gentrify hashtag intelligentsia readymade schlitz brooklyn disrupt",
     year: "2021-",
     img: team3,
-    type: 0,
+    type: 1,
+    des: "Hi, I am working with Dr. Karthikeyan Vasudevan as Senior Technical Officer. My work role involves channelizing administrative work and specific scientific work from Scientist In-Charge’s office. Event management, study visits, and workshops organized are coordinated by me right from registration to submission of the report. I manage the correspondence for all the MLP and GAP projects. Also, by maintaining a good rapport with different sections at CCMB, I am able to facilitate day to day works/activities related to LaCONES. Additionally, I have been a committee member of the Group III association and a member of the LaCONES canteen committee for a certain period of time.",
+    email: "rajyalakshmikoyyana@gmail.com"
   },
   {
     name: "Segu Harika",
@@ -84,7 +92,9 @@ export const team = [
       "Whatever tattooed stumptown art party sriracha gentrify hashtag intelligentsia readymade schlitz brooklyn disrupt",
     year: "2021-",
     img: team20,
-    type: 0,
+    type: 1,
+    des: "I am a senior technical officer working with Dr. Karthikeyan Vasudevan's team and have an experience of 14 years in the area of molecular biology. Throughout my career, I had the privilege of working on diverse projects with a slew of passionate students.",
+    email: 'harika.katakam@ccmb.res.in'
   },
   {
     name: "Afsar Soghra",
@@ -93,7 +103,9 @@ export const team = [
       "Whatever tattooed stumptown art party sriracha gentrify hashtag intelligentsia readymade schlitz brooklyn disrupt",
     year: "2021-",
     img: team4,
-    type: 0,
+    type: 1,
+    des: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eligendi dolorum ducimus impedit amet laudantium quasi expedita possimus id, beatae excepturi assumenda corporis distinctio, ex labore tempora doloremque illo? Repellendus, quidem.",
+    email: "soghra@ccmb.res.in"
   },
 
   {
@@ -103,7 +115,9 @@ export const team = [
       "Whatever tattooed stumptown art party sriracha gentrify hashtag intelligentsia readymade schlitz brooklyn disrupt",
     year: "2021-",
     img: team5,
-    type: 0,
+    type: 3,
+    des: "I am a Ph.D student at CCMB-LaCONES, with Dr. Karthikeyan Vasudevan. Most of what I did for my doctoral research included ‘counting frogs at night in the forests’, for my work on an amphibian fungal disease called chytridiomycosis. I also enjoy taking long walks in forests and waking up to loud hoots of Langurs. It has been rewarding to be a small part of the evolving conversation with forests and people during my field work. I enjoy writing down snippets of these dialogues in my ‘field diary’ to reminisce and collect them for reference to future stories.",
+    email: "g.3.dhar@gmail.com"
   },
   {
     name: "Ravi Kumar Singh",
@@ -112,7 +126,9 @@ export const team = [
       "Whatever tattooed stumptown art party sriracha gentrify hashtag intelligentsia readymade schlitz brooklyn disrupt",
     year: "2021-",
     img: team6,
-    type: 0,
+    type: 3,
+    des: "",
+    email: "maximusravi@gmail.com"
   },
   {
     name: "Avni Blotra",
@@ -121,7 +137,9 @@ export const team = [
       "Whatever tattooed stumptown art party sriracha gentrify hashtag intelligentsia readymade schlitz brooklyn disrupt",
     year: "2021-",
     img: team21,
-    type: 0,
+    type: 3,
+    des: "Hi I am Avni Blotra, PhD student at CCMB-LaCONES. I have been involved in understanding the functional aspects of hemotoxic snake venoms and their optimized delivery mechanism. Venom is an adaptive trait spread across multiple animal phyla, primarily used for prey capture and anti-predatory defence. This multi-functionality of venom drives its regulated expenditure. I am using the multi-omics approach to gain comprehensive insights into the bioenergetic pressures that shaped venom production and efficient delivery systems. This integrated approach will help us to catalogue venom toxins and toxin gene sequences that are fundamental to understanding venom and developing targeted therapies.",
+    email:"avniblotra76@gmail.com"
   },
   {
     name: "Alka Sahu",
@@ -130,7 +148,9 @@ export const team = [
       "Whatever tattooed stumptown art party sriracha gentrify hashtag intelligentsia readymade schlitz brooklyn disrupt",
     year: "2021-",
     img: team7,
-    type: 0,
+    type: 3,
+    des: "Hi, I’m Alka, currently pursuing my PhD under the guidance of Dr. Karthikeyan Vasudevan at CCMB-LaCONES. My area of expertise lies in studying neurotoxic venom from different Bungarus species across India. In my research, I aim to elucidate the molecular composition and diversity of these venoms and their neutralization by commercial antivenom using venomics and antivenomics approaches. Ultimately, my goal is to contribute to advancements in toxicological research to mitigate complications faced by bite victims and healthcare professionals.",
+    email: "alkasahuak@gmail.com"
   },
   {
     name: "Yashwant Singh Pawar",
@@ -139,8 +159,30 @@ export const team = [
       "Whatever tattooed stumptown art party sriracha gentrify hashtag intelligentsia readymade schlitz brooklyn disrupt",
     year: "2021-",
     img: team8,
-    type: 0,
+    type: 3,
+    des: "Interested in expanding the knowledge of wildlife infectious diseases, and the effect on wildlife population. Model diseases system is FROG v/s CHYTRID.",
+    email: "ysp.yashwant@gmail.com"
   },
+  {
+    name: "Shibi Muralidar",
+    position: "Project Based Student Trainee",
+    about:
+      "Whatever tattooed stumptown art party sriracha gentrify hashtag intelligentsia readymade schlitz brooklyn disrupt",
+    year: "2021-",
+    img: team8,
+    type: 4,
+    des: ": Hi, this is Shibi Muralidar, currently working as a project-based student trainee in CCMB-LaCONES. I am working towards the advancement of 3Rs in toxicological research with Dr. Karthikeyan’s research group.",
+    email: 'shibi3214@gmail.com'
+  },
+  // {
+  //   name: "Sachin Anand",
+  //   position: "Proj Field Assistant",
+  //   about:
+  //     "Whatever tattooed stumptown art party sriracha gentrify hashtag intelligentsia readymade schlitz brooklyn disrupt",
+  //   year: "2021-",
+  //   img: team9,
+  //   type: 4,
+  // },
   {
     name: "Swapnil Kiran",
     position: "Junior Research Fellow (Project)",
@@ -148,7 +190,9 @@ export const team = [
       "Whatever tattooed stumptown art party sriracha gentrify hashtag intelligentsia readymade schlitz brooklyn disrupt",
     year: "2021-",
     img: team9,
-    type: 0,
+    type: 4,
+    des: "The sun is pretty relevant; air, rain, snow, trees, flowers, soil, tigers, bears, coyotes, snakes—everything is here. There are a lot of things beyond boundaries, I would like to explore.",
+    email: "swapnil@ccmb.res.in"
   },
   {
     name: "Mubashir Majid Dar",
@@ -157,7 +201,9 @@ export const team = [
       "Whatever tattooed stumptown art party sriracha gentrify hashtag intelligentsia readymade schlitz brooklyn disrupt",
     year: "2021-",
     img: team10,
-    type: 0,
+    type: 4,
+    des: "A Zoology postgraduate with Majors in Animal Physiology. I joined Karthikeyan Lab in 'Shahtoosh-Pashmina - Detection of adulterants' project. I have a wide range of interests from ecology, organismal behaviours, brain adaptations, to developmental neuroscience. I am an ocean lover, stargazer, and a selenophile. Physics, Poetry and Philosophy are my major reading interests.",
+    email: 'darmubashir003@gmail.com'
   },
   {
     name: "Naveen Kumar C",
@@ -166,16 +212,20 @@ export const team = [
       "Whatever tattooed stumptown art party sriracha gentrify hashtag intelligentsia readymade schlitz brooklyn disrupt",
     year: "2021-",
     img: team11,
-    type: 0,
+    type: 4,
+    des: "What scares you? “Work”. What do you like? “Research”",
+    email: "naveenzcnk@gmail.com"
   },
   {
-    name: "Akash",
+    name: "Akash M Dev",
     position: "Junior Research Fellow (Project)",
     about:
       "Whatever tattooed stumptown art party sriracha gentrify hashtag intelligentsia readymade schlitz brooklyn disrupt",
     year: "2021-",
     img: team12,
-    type: 0,
+    type: 4,
+    des: "My research interest includes disease ecology and management strategies with a focus on One health concept.",
+    email: "akashm@ccmb.res.in"
   },
 
   {
@@ -185,7 +235,9 @@ export const team = [
       "Whatever tattooed stumptown art party sriracha gentrify hashtag intelligentsia readymade schlitz brooklyn disrupt",
     year: "2021-2023",
     img: team13,
-    type: 1,
+    type: 5,
+    des: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eligendi dolorum ducimus impedit amet laudantium quasi expedita possimus id, beatae excepturi assumenda corporis distinctio, ex labore tempora doloremque illo? Repellendus, quidem.",
+    email: "biswajitaswain099@gmail.com"
   },
   {
     name: "Milind Mutnale",
@@ -194,7 +246,9 @@ export const team = [
       "Whatever tattooed stumptown art party sriracha gentrify hashtag intelligentsia readymade schlitz brooklyn disrupt",
     year: "2021-2023",
     img: team14,
-    type: 1,
+    type: 5,
+    des: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eligendi dolorum ducimus impedit amet laudantium quasi expedita possimus id, beatae excepturi assumenda corporis distinctio, ex labore tempora doloremque illo? Repellendus, quidem.",
+    email: "milind.gu14@gmail.com"
   },
   {
     name: "S. Srinivas",
@@ -203,7 +257,9 @@ export const team = [
       "Whatever tattooed stumptown art party sriracha gentrify hashtag intelligentsia readymade schlitz brooklyn disrupt",
     year: "2021-2023",
     img: team15,
-    type: 1,
+    type: 5,
+    des: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eligendi dolorum ducimus impedit amet laudantium quasi expedita possimus id, beatae excepturi assumenda corporis distinctio, ex labore tempora doloremque illo? Repellendus, quidem.",
+    email: "srinuuohyd@gmail.com"
   },
   {
     name: "Siddharth Bhatia",
@@ -212,7 +268,9 @@ export const team = [
       "Whatever tattooed stumptown art party sriracha gentrify hashtag intelligentsia readymade schlitz brooklyn disrupt",
     year: "2021-2023",
     img: team16,
-    type: 1,
+    type: 5,
+    des: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eligendi dolorum ducimus impedit amet laudantium quasi expedita possimus id, beatae excepturi assumenda corporis distinctio, ex labore tempora doloremque illo? Repellendus, quidem.",
+    email: "siddharth.bhatia17@hotmail.com"
   },
   {
     name: "Tanushree Srivastava",
@@ -221,7 +279,9 @@ export const team = [
       "Whatever tattooed stumptown art party sriracha gentrify hashtag intelligentsia readymade schlitz brooklyn disrupt",
     year: "2021-2023",
     img: team17,
-    type: 1,
+    type: 5,
+    des: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eligendi dolorum ducimus impedit amet laudantium quasi expedita possimus id, beatae excepturi assumenda corporis distinctio, ex labore tempora doloremque illo? Repellendus, quidem.",
+    email: "tanz.d.cool@gmail.com"
   },
   {
     name: "snehalatha Vadigi",
@@ -230,7 +290,9 @@ export const team = [
       "Whatever tattooed stumptown art party sriracha gentrify hashtag intelligentsia readymade schlitz brooklyn disrupt",
     year: "2021-2023",
     img: team18,
-    type: 1,
+    type: 5,
+    des : "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eligendi dolorum ducimus impedit amet laudantium quasi expedita possimus id, beatae excepturi assumenda corporis distinctio, ex labore tempora doloremque illo? Repellendus, quidem.",
+    email: "snehavadigi@gmail.com"
   },
   {
     name: "Javaid Hameed",
@@ -239,7 +301,9 @@ export const team = [
       "Whatever tattooed stumptown art party sriracha gentrify hashtag intelligentsia readymade schlitz brooklyn disrupt",
     year: "2021-2023",
     img: team22,
-    type: 1,
+    type: 5,
+    des: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eligendi dolorum ducimus impedit amet laudantium quasi expedita possimus id, beatae excepturi assumenda corporis distinctio, ex labore tempora doloremque illo? Repellendus, quidem.",
+    email: "hameedjavaid2@gmail.com"
   },
 ];
 
@@ -1033,5 +1097,45 @@ export const books = [
     year: 2006,
     link: "https://www.researchgate.net/publication/225268272",
     file:"",
+  }
+]
+
+export const collab = [
+  {
+    title: "Amphibian specialist group",
+    members: {
+      mem1: 'Janice Chanson',
+      mem2: "KV Gururaja",
+      mem3: "G Venu"
+    }
+  },
+  {
+    title: "Chytridiomycosis",
+    members: {
+      mem1: "Dr Kaya Top-kloker"
+    }
+  },
+  {
+    title: "Snake venomics and epidemiology",
+    members: {
+      mem1: "Dr Anita Malhotra",
+      mem2: "Dr Robin Doley",
+      mem3: "Dr. Maya Gopalakrishnan",
+      mem4: "Dr Sumeet"
+    }
+  },
+  {
+    title: "Gharial ecology",
+    members: {
+      mem1: "Dr Jeffrey W Lang",
+      mem2: "Mr A Jailabdeen"
+    }
+  },
+  {
+    title: "Assisted Reproductive Technology",
+    members: {
+      mem1: "Dr Natalia Catalyaud",
+      mem2: "Dr Robert Browne"
+    }
   }
 ]

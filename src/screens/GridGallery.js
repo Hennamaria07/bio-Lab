@@ -63,7 +63,7 @@ useEffect(() => {
             const dynamicClassName = `item-${index}`;
             return (
           <div key={index} id={dynamicClassName} onClick={() => openViewer(outerIndex)}>
-              <img src={data} alt="photo" />
+              <img  style={{cursor: 'pointer'}} src={data} alt="photo" />
               {/* <div className="overlay"><span>{data.title}</span></div> */}
           </div>
               );

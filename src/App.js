@@ -6,8 +6,8 @@ import GalleryPage from "./pages/GalleryPage";
 import ResearchPage from "./pages/ResearchPage";
 import PublicationPage from "./pages/PublicationPage";
 import './App.css';
-import Opportunities from "./pages/Opportunities";
-import Collaborators from "./pages/Collaborators";
+import OpportunitiesPage from "./pages/OpportunitiesPage";
+import Collaborators from "./pages/CollaboratorsPage";
 
 function App() {
   return (
@@ -19,7 +19,7 @@ function App() {
       <Route path="/gallery" element={<GalleryPage />} />
       <Route path="/research" element={<ResearchPage />} />
       <Route path="/publications" element={<PublicationPage />} />
-      <Route path="/opportunities" element={<Opportunities />} />
+      <Route path="/opportunities" element={<OpportunitiesPage />} />
       <Route path="/collab" element={<Collaborators />} />
 
     </Routes>

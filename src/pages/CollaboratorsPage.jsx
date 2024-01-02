@@ -1,12 +1,14 @@
 import React from 'react'
 import NavBar from '../components/NavBar'
 import Footer from '../components/Footer'
-
+import TitleCard from '../components/TitleCard'
+import { Collab } from '../screens/Collab'
 const Collaborators = () => {
   return (
     <>
     <NavBar />
-    <h1>Collaborators</h1>
+    <TitleCard />
+    <Collab />
     <Footer />
     </>
   )

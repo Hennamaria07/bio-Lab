@@ -6,7 +6,7 @@ import { FiMenu, FiX } from 'react-icons/fi';
 // import facebook from '../icons/facebook.png';
 // import instagram from '../icons/instagram.png';
 // import linkedin from '../icons/linkedin.png';
-import logo from "../assets/images/logo.png"
+import logo from "../assets/images/CCMB_logo.png";
 
 const NavBar = () =>  {
  
